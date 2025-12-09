@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/sushi.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Sushi</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <h4>Sushiman</h4>
+          <div class="header__logo-overlay"></div>
+        </div>
+
+        <ul class="header__menu">
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#food">Food</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#about-us">About Us</a>
+          </li>
+          <li>
+            <img src="public/search.svg" alt="search-icon" />
+          </li>
+        </ul>
+
+        <ul class="header__menu-mobile">
+          <li>
+            <img src="public/menu.svg" alt="menu" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-image">
+        <img src="public/sushi-1.png" alt="sushi-image" />
+
+        <h2>
+          日 <br />
+          本 <br />
+          食
+        </h2>
+
+        <div class="hero-image__overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-content-info">
+          <h1>Feel the taste of the Japanese Cuisine</h1>
+          <p>
+            Feel the taste of the most popular Japanese food from anywhere,
+            anytime in the world
+          </p>
+
+          <div class="hero-content__buttons">
+            <button class="hero-content__order-button">Order Now!</button>
+
+            <button class="hero-content__play-button">
+              <img src="public/play-circle.svg" alt="play-circle" />How to Order
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-content__testimonial">
+          <div class="hero-content__customer flex-center">
+            <h4>24<span>k+</span></h4>
+            <p>Happy Customers</p>
+          </div>
+
+          <div class="hero-content__review">
+            <img src="public/user.png" alt="user-image" />
+            <p>
+              The best ever Japanese food delivery service that ever existed in
+              Bengaluru!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
